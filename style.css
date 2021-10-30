@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 375px;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation {
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+
+.title {
+  color: hsl(223, 47%, 23%);
+}
+
+.description {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+
+}
+
