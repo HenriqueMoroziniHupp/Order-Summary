@@ -19,15 +19,27 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 375px;
+  grid-template-columns: 330px;
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
 }
 
 .presentation {
+  display: grid;
   background-color: white;
   border-radius: 2rem;
+  line-height: 1.5;
+}
+
+.description {
+  display:  grid;
+  gap: 25px;
+  padding: 25px;
+}
+
+.item {
+  display: grid;
 }
 
 .image {
@@ -40,9 +52,44 @@ body {
   color: hsl(223, 47%, 23%);
 }
 
-.description {
+.information {
+  /* padding: 0px 60px; */
   color: hsl(224, 23%, 55%);
   font-size: 16px;
-
+  text-align: center;
 }
 
+.plan {
+  background: hsl(225, 100%, 98%);
+  border-radius: 8px;
+  padding: 16px;
+  display: grid;
+  grid-auto-flow: column;
+  font-weight: bold;
+}
+
+.value {
+  font-weight: normal;
+  color: hsl(224, 23%, 55%);
+}
+
+.button-pay {
+  background: hsl(245, 75%, 52%);
+  padding: 16px;
+  border-radius: 8px;
+  color: aliceblue;
+  font-weight: bold;
+  box-shadow: 0px 20px 20px 0px hsl(245, 75%, 52%, 0.2);
+  border: none;
+  cursor: pointer;
+}
+
+.cancel {
+  font-size: 16px;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+
+
+  
+}
