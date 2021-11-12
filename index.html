@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<!-- <html lang="en"> -->
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="./style.css">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Order summary card</title>
 
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,76 +23,58 @@
       color: hsl(228, 45%, 44%);
     }
   </style>
-
 </head>
 
 <body>
 
   <div class="container">
     <div class="presentation">
-      <img class="image" src="./images/illustration-hero.svg" alt="Image">
+
+      <img class="image" src="./images/illustration-hero.svg" alt="Imagem">
 
       <div class="description">
+        <h2 class="title">
+          Order Summary
+        </h2>
 
-        <div class="item">
-          <h1 class="title">Order Summary</h1>
-        </div>
+        <p class="information">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
 
-        <div class="item">
-          <p class="information">
-            You can now listen to millions of songs, audiobooks, and podcasts on any
-            device anywhere you like!
-          </p>
-        </div>
-
-        <div class="item">
-
-          <div class="plan">
-            <img src="./images/icon-music.svg" alt="Ícone Musica">
-            <div class="plan-info">
+        <div class="plan">
+          <img class="icon-music" src="./images/icon-music.svg" alt="">
+          
+          <div class="plan-info">
+            <p class="plan-name">
               Annual Plan
-              <p class="value">
-                $59.99/year
-
-              </p>
-            </div>
-            <link rel="stylesheet" href="">
-            <a href="">
-              Change
-
-            </a>
+            </p>
+            <p class="plan-value">
+              $59.99/year
+            </p>
           </div>
-        </div>
 
-        <div class="item">
-
-          <button class="button-pay">
-            Proceed to Payment
-          </button>
-
-        </div>
-
-
-        <div class="item">
-          <a class="cancel" href="/">
-            Cancel Order
+          <a class="change-plan" href="">
+            Change
           </a>
+
         </div>
 
+        <button class="button-payment">
+          Proceed to Payment
+        </button>
+
+        <a class="cancel-order" href="">
+          Cancel Order
+        </a>
       </div>
-
-
-
-
     </div>
-
-
-
   </div>
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/HenriqueMoroziniHupp">Henrique Morozini Hupp</a>.
   </div>
 </body>
 
